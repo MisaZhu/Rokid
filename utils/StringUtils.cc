@@ -1,5 +1,5 @@
 #include "StringUtils.hh"
-#include "UTF8StringReader.hh"
+#include "Reader/UTF8StringReader.hh"
 
 void StringUtils::split(const string& s, vector<string>& ret, char stop, bool trm) {
   UTF8StringReader strReader;

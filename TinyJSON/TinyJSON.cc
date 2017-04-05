@@ -1,5 +1,5 @@
 #include "TinyJSON.hh"
-#include "UTF8StringReader.hh"
+#include "Reader/UTF8StringReader.hh"
 #include <vector>
 #include <stdio.h>
 

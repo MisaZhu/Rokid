@@ -2,7 +2,7 @@
 #define TinyJSON_HH
 
 #include "JSONEntry.hh"
-#include "Reader.hh"
+#include "Reader/Reader.hh"
 
 using namespace std;
 
@@ -11,8 +11,6 @@ class TinyJSON {
 	static const Byte NAME = 1;
 	static const Byte CONTENT = 3;
 	Reader* reader;
-
-	Byte state;
 
 	bool readElm(JSONEntry& elm, Byte state = ELM);
 public:

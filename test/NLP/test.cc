@@ -5,7 +5,7 @@
  *      Author: misa
  */
 
-#include "NLP.hh"
+#include "NLP/NLP.hh"
 #include <iostream>
 
 using namespace Rokid;
