@@ -2,7 +2,7 @@
  * NLP.hh
  *
  *  Created on: Apr 4, 2017
- *      Author: misa
+ *      Author: Misa.Z (misa.zhu@gmail.com)
  */
 
 #ifndef SOURCES_NLP_HH_

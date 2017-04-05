@@ -2,7 +2,7 @@
  * NLPResult.cc
  *
  *  Created on: Apr 4, 2017
- *      Author: misa
+ *      Author: Misa.Z (misa.zhu@gmail.com)
  */
 
 #include "NLPResult.hh"

@@ -2,10 +2,10 @@
  * NLP_test.cc
  *
  *  Created on: Apr 4, 2017
- *      Author: misa
+ *      Author: Misa.Z (misa.zhu@gmail.com)
  */
 
-#include "NLP/NLP.hh"
+#include <NLP/PatternNLP/PatternNLP.hh>
 #include <iostream>
 
 using namespace Rokid;
@@ -16,15 +16,9 @@ void forAll(const NLPOption& option) {
 			<< ", score: "  << option.getScore() << "\n";
 }
 
-class MyNLP: public NLP {
-public:
-	bool parse(const string& input, NLPResult& res) {
-		return true;
-	}
-};
 
 int main(int argc, char** argv) {
-	MyNLP nlp;
+	PatternNLP nlp;
 	NLPResult res;
 
 	nlp.parse("", res);

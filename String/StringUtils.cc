@@ -48,7 +48,7 @@ string StringUtils::trim(const string& s) {
 string StringUtils::trimLeft(const string& s) {
 	size_t l = s.length();
 
-	for(int i=0; i<l; ++i) {
+	for(size_t i=0; i<l; ++i) {
 		char b = s.at(i);
 		if(b == ' ' ||
 				b == '\t' ||
