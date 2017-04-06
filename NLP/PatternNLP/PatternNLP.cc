@@ -6,6 +6,7 @@
  */
 
 #include "PatternNLP.hh"
+#include "SlotFetcher.hh"
 
 namespace Rokid {
 
